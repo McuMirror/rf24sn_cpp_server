@@ -6,7 +6,7 @@ And patch to match of Raspberry Pi 2, new version of RF24-rpi and libmosquitto 1
 
 ## Installation:
 
-Install [RF24-rpi](https://github.com/deawarehub/RF24-rpi)
+Install [RF24-rpi](https://github.com/deaware/RF24-rpi)
 
 Clone all resource
 
