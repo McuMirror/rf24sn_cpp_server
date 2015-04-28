@@ -11,7 +11,7 @@ Install [RF24-rpi](https://github.com/deaware/RF24-rpi)
 Clone all resource
 
 ```Shell
-git clone https://github.com/deawarehub/RF24SN_CPP_Server.git
+git clone https://github.com/deaware/RF24SN_CPP_Server.git
 cd RF24SN_CPP_Server
 ```
 
