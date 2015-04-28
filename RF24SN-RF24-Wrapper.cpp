@@ -5,7 +5,7 @@
 #include "RF24.h"
 
 //TODO load from program arguments
-RF24 radio("/dev/spidev0.0",8000000 , 25);
+RF24 radio(RPI_V2_GPIO_P1_15, RPI_V2_GPIO_P1_26, BCM2835_SPI_SPEED_8MHZ);
 
 uint64_t base_pipe = 0xF0F0F0F000LL;      // address of the pipe to the base.
 

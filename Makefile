@@ -15,8 +15,8 @@
 
 
 # The recommended compiler flags for the Raspberry Pi
-CC_FLAGS=-Wall -Ofast -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s
-LD_FLAGS=-lrf24 -lmosquitto
+CC_FLAGS=-Wall -Ofast -mfpu=neon -mfloat-abi=hard -march=armv7-a -I./
+LD_FLAGS=-lrf24-bcm -l:libmosquitto.so.1
 CPP_FILES=$(wildcard *.cpp)
 OBJ_FILES=$(CPP_FILES:.cpp=.o)
 
